@@ -33,7 +33,7 @@ impl Solution {
 
         let delta = sorted[1] - sorted[0];
 
-        for i in (1..sorted.len()) {
+        for i in 1..sorted.len() {
             if sorted[i] != sorted[i - 1] + delta {
                 return false;
             }

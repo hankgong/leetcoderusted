@@ -36,7 +36,7 @@ impl Solution {
     pub fn num_identical_pairs(nums: Vec<i32>) -> i32 {
         let mut cmap = HashMap::<i32, i32>::new();
 
-        let mut idx = 1;
+        let mut _idx = 1;
         for &i in nums.iter(){
             let entry = cmap.entry(i).or_insert(0);
             *entry += 1;
@@ -44,7 +44,7 @@ impl Solution {
         // println!("{:?}", cmap);
     
         let mut ret = 0;
-        for (k, v) in cmap {
+        for (_k, v) in cmap {
             ret += v*(v-1)/2;
         }
         ret
