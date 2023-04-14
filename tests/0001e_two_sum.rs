@@ -48,7 +48,6 @@ mod tests {
 
     #[test]
     fn test_me() {
-        println!("{:?}", "rere again");
         assert_eq!(vec![0, 1], Solution::two_sum(vec![2, 7, 11, 15], 9));
         assert_eq!(vec![1, 2], Solution::two_sum(vec![3, 2, 4], 6));
     }
