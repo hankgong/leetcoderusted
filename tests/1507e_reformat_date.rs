@@ -9,7 +9,7 @@ Convert the date string to the format YYYY-MM-DD, where:
 YYYY denotes the 4 digit year.
 MM denotes the 2 digit month.
 DD denotes the 2 digit day.
- 
+
 
 Example 1:
 
@@ -23,7 +23,6 @@ Example 3:
 
 Input: date = "26th May 1960"
 Output: "1960-05-26"
- 
 
 Constraints:
 

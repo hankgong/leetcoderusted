@@ -32,8 +32,7 @@ impl Solution {
                 None => {
                     map.insert(num, index);
                 }
-
-                Some(sub_index) => return vec![*sub_index as i32, index as i32]
+                Some(sub_index) => return vec![*sub_index as i32, index as i32],
             }
         }
         vec![]

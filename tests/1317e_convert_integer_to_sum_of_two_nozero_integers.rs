@@ -48,7 +48,6 @@ impl Solution {
                 break;
             }
         }
-
         vec![ret, n - ret]
     }
 }

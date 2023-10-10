@@ -44,6 +44,7 @@ impl Solution {
             let mut cur = sorted[0];
             for &i in sorted.iter() {
                 println!("{:?}", &i);
+
                 if i > cur {
                     idx += 1;
                     cur = i;
